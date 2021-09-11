@@ -5,6 +5,7 @@ const Heading = ({theme, value}) => {
     theme === "light"
       ? "heading-light"
       : "heading-dark";
+  // eslint-disable-next-line
   return <marquee className={`${styles['heading']} ${styles[theme_name]}`}>{value}</marquee>;
 };
 
