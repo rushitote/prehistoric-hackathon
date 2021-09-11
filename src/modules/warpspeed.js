@@ -77,6 +77,7 @@
         this.BACKGROUND_COLOR=config.backgroundColor===undefined?"hsl(263,45%,7%)":config.backgroundColor;	
         var canvas=document.getElementById(this.targetId);
         canvas.width=1; canvas.height=1;
+        // eslint-disable-next-line
         this.STAR_COLOR=config.starColor==undefined?"#FFFFFF":config.starColor;
         this.prevW=-1; this.prevH=-1; //width and height will be set at first draw call
         this.stars=[];

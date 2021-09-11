@@ -10,9 +10,9 @@ import backgrounds from "../sprites/bgs.json";
 import WarpSpeed from "../modules/warpspeed";
 
 const Generated = () => {
-  let x = 0;
   useEffect(() => {
-    x = new WarpSpeed("warp");
+    // eslint-disable-next-line
+    const x = new WarpSpeed("warp");
   }, []);
 
   const [seconds, setSeconds] = useState(3);
