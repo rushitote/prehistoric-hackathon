@@ -7,10 +7,23 @@
   font-family: sans-serif;
 }
 
-.about-light{
+.about-light {
   color: black;
 }
 
-.about-dark{
+.about-dark {
   color: white;
+}
+
+.back {
+  color: blue;
+  font-size: 2rem;
+  width: max-content;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  justify-items: center;
 }
