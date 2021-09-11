@@ -1,6 +1,13 @@
 .body {
-  color: white;
   font-size: 20px;
   width: 98%;
   font-family: serif;
+}
+
+.body-light{
+  color: black;
+}
+
+.body-dark{
+  color: white;
 }

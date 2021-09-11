@@ -5,7 +5,6 @@
 }
 
 .element-root {
-  background-image: url("https://i.imgur.com/buVXVoY.jpeg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,6 +23,14 @@
   width: max-content;
   transform: scale(0.1);
   font-family: "Times New Roman", Times, serif;
+}
+
+.alert-light{
+
+}
+
+.alert-dark{
+
 }
 
 @keyframes grow_and_shrink {
