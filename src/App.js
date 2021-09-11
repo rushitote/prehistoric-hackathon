@@ -1,10 +1,38 @@
-import './App.css';
+import "./App.css";
 import Form from "./components/Form";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
-    <Form />
+    <div>
+      <Form />
+    </div>
   );
 }
 
-export default App;
+function Ok() {
+  //get value by JSON.parse(window.localStorage.getItem("formElements"))
+  return "ok";
+}
+
+function AppRouter() {
+  return (
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path="/">
+            <App />
+          </Route>
+        </Switch>
+        <Switch>
+          <Route path="/generated-site" component={Ok} />
+        </Switch>
+      </div>
+    </Router>
+  );
+}
+export default AppRouter;
