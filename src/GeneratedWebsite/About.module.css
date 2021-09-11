@@ -1,0 +1,9 @@
+.about {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+  margin: 0 auto;
+  gap: 2em;
+  font-family: sans-serif;
+}
