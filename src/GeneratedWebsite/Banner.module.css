@@ -1,0 +1,15 @@
+.banner {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 1em;
+}
+
+.banner-text {
+  color: cyan;
+  height: max-content;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap");
+.heading {
+  font-family: "Comic Neue", cursive;
+  color: rgb(255, 0, 191);
+  font-size: 4rem;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
