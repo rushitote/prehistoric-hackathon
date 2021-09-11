@@ -8,8 +8,15 @@
 }
 
 .banner-text {
-  color: cyan;
   height: max-content;
   font-size: 3rem;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-text-dark {
+  color: cyan;
+}
+
+.banner-text-light {
+  color: #461952;
 }

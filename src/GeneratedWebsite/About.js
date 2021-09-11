@@ -1,8 +1,12 @@
 import styles from "./About.module.css";
 
-const About = () => {
+const About = ({theme}) => {
+  const theme_name =
+    theme === "light"
+      ? "about-light"
+      : "about-dark";
   return (
-    <div className={styles["about"]}>
+    <div className={`${styles['about']} ${styles[theme_name]}`}>
       <p>
         Ever wondered what it would be like if we were still stuck in the early
         2000s? Well, wonder no more since we have fullfilled your wish. This
