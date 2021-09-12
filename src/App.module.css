@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  height: 100vh;
+  padding-top: 2em;
+  background-image: url("https://i.imgur.com/M3q7I5q.png");
 }
 
 .App-logo {

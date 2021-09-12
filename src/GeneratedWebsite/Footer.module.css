@@ -1,4 +1,11 @@
 .footer {
-  color: white;
   font-family: serif;
+}
+
+.footer-light{
+  color: black;
+}
+
+.footer-dark{
+  color: white;
 }

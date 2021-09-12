@@ -49,7 +49,7 @@ export default function FormElement({ formElements, setFormElements, index }) {
         </Grid>
         <Grid item xs={1}>
           <IconButton aria-label="delete" onClick={onDeleteClick}>
-            <DeleteIcon sx={{ color: "red", fontSize: 30}} />
+            <DeleteIcon sx={{ color: "red", fontSize: 30 }} />
           </IconButton>
         </Grid>
       </Grid>

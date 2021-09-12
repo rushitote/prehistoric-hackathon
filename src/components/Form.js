@@ -50,11 +50,11 @@ export default function Form() {
         marginRight: "auto",
       }}
       noValidate
-      mt={4}
       autoComplete="off"
     >
-      <h1>Generate your prehistoric website!</h1>
+      <h1 style={{ color: "white" }}>Generate your prehistoric website!</h1>
       <Stack spacing={2}>
+        <div></div>
         {formElements.map((element, index) => {
           return (
             <FormElement
