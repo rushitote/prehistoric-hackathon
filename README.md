@@ -2,7 +2,10 @@
 
 > The old web recreated with modern technology
 
-This project was created during the weekend of September 10-12 for the [Prehistoric Hackathon](https://prehackstoric.devpost.com/)
+This project was created during the weekend of September 10-12 for the [Prehistoric Hackathon](https://prehackstoric.devpost.com/) by the following team members:
+- [Shashwat Khanna](https://github.com/TheTrio)
+- [Jayant Kumar](https://github.com/Jayk5)
+- [Rushikesh Tote](https://github.com/rushitote) 
 
 ## About
 
